@@ -98,23 +98,23 @@
             {
                 "name": "Default",
                 "value": "default",
-                "preview": "white_thumb.png",
+                "preview": "white_thumb.webp",
                 "color": "#f2f2f2"
             },
             {
                 "name": "Garage",
                 "value": "garage",
-                "preview": "garage_thumb.png"
+                "preview": "garage_thumb.webp"
             },
             {
                 "name": "City",
                 "value": "city", 
-                "preview": "city_thumb.png"
+                "preview": "city_thumb.webp"
             },
             {
                 "name": "Outdoor",
                 "value": "scene_1",
-                "preview": "outdoor_thumb.png"
+                "preview": "outdoor_thumb.webp"
             }
         ],
         "target": "environment",

@@ -4818,92 +4818,92 @@
   ],
   "images": [
     {
-      "mimeType": "image/png",
+      "mimeType": "image/webp",
       "name": "adskMatjalananbasecolortexture.png",
       "uri": "textures/adskMatjalananbasecolortexture.png"
     },
     {
-      "mimeType": "image/png",
+      "mimeType": "image/webp",
       "name": "M_2.png",
       "uri": "textures/M_2.png"
     },
     {
-      "mimeType": "image/png",
+      "mimeType": "image/webp",
       "name": "fasadesbasecolortexture.png",
       "uri": "textures/fasadesbasecolortexture.png"
     },
     {
-      "mimeType": "image/png",
+      "mimeType": "image/webp",
       "name": "fasades2basecolortexture.png",
       "uri": "textures/fasades2basecolortexture.png"
     },
     {
-      "mimeType": "image/png",
+      "mimeType": "image/webp",
       "name": "detailsbasecolortexture.png",
       "uri": "textures/detailsbasecolortexture.png"
     },
     {
-      "mimeType": "image/png",
+      "mimeType": "image/webp",
       "name": "KB3D_CTS_Sidewalkbasecolortexture.png",
       "uri": "textures/KB3D_CTS_Sidewalkbasecolortexture.png"
     },
     {
-      "mimeType": "image/png",
+      "mimeType": "image/webp",
       "name": "KB3D_CTS_SteelRoughBlackTbasecolortexture.png",
       "uri": "textures/KB3D_CTS_SteelRoughBlackTbasecolortexture.png"
     },
     {
-      "mimeType": "image/png",
+      "mimeType": "image/webp",
       "name": "conblockbasecolortexture.png",
       "uri": "textures/conblockbasecolortexture.png"
     },
     {
-      "mimeType": "image/png",
+      "mimeType": "image/webp",
       "name": "conblockmetallicroughnesstex.png",
       "uri": "textures/conblockmetallicroughnesstex.png"
     },
     {
-      "mimeType": "image/png",
+      "mimeType": "image/webp",
       "name": "bg_okebasecolortexture.png",
       "uri": "textures/bg_okebasecolortexture.png"
     },
     {
-      "mimeType": "image/png",
+      "mimeType": "image/webp",
       "name": "KB3D_CTS_ConcreteDecorAbasecolortexture.png",
       "uri": "textures/KB3D_CTS_ConcreteDecorAbasecolortexture.png"
     },
     {
-      "mimeType": "image/png",
+      "mimeType": "image/webp",
       "name": "KB3D_CTS_GreenHedgebasecolortexture.png",
       "uri": "textures/KB3D_CTS_GreenHedgebasecolortexture.png"
     },
     {
-      "mimeType": "image/png",
+      "mimeType": "image/webp",
       "name": "KB3D_CTS_LeafAtlasbasecolortexture.png",
       "uri": "textures/KB3D_CTS_LeafAtlasbasecolortexture.png"
     },
     {
-      "mimeType": "image/png",
+      "mimeType": "image/webp",
       "name": "KB3D_CTS_TreeWalnutBarkbasecolortexture.png",
       "uri": "textures/KB3D_CTS_TreeWalnutBarkbasecolortexture.png"
     },
     {
-      "mimeType": "image/png",
+      "mimeType": "image/webp",
       "name": "adskMatKB3D_CTS_SteelRoughBlackTbasecolortexture.png",
       "uri": "textures/adskMatKB3D_CTS_SteelRoughBlackTbasecolortexture.png"
     },
     {
-      "mimeType": "image/png",
+      "mimeType": "image/webp",
       "name": "KB3D_CTS_Lampsbasecolortexture.png",
       "uri": "textures/KB3D_CTS_Lampsbasecolortexture.png"
     },
     {
-      "mimeType": "image/png",
+      "mimeType": "image/webp",
       "name": "KB3D_CTS_MetalPaintGrayAbasecolortexture.png",
       "uri": "textures/KB3D_CTS_MetalPaintGrayAbasecolortexture.png"
     },
     {
-      "mimeType": "image/png",
+      "mimeType": "image/webp",
       "name": "adskMatrumputbasecolortexture.png",
       "uri": "textures/adskMatrumputbasecolortexture.png"
     }
