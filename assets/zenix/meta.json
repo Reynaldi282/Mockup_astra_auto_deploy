@@ -73,24 +73,6 @@
                 "color": "#f2f2f2"
             },
             {
-                "name": "Garage",
-                "value": "garage",
-                "preview": "thumbnails/garage_thumb.webp",
-                "color": "#8b8b8b",
-                "exr": "garage_1k.exr",
-                "cubemap": "garage/",
-                "planar": "garage_planar.glb"
-            },
-            {
-                "name": "City Day",
-                "value": "city_day",
-                "preview": "thumbnails/city_day_thumb.webp",
-                "color": "#87ceeb",
-                "exr": "city_day_1k.exr",
-                "cubemap": "city_day/",
-                "planar": "city_day_planar.glb"
-            },
-            {
                 "name": "City Night",
                 "value": "city_night",
                 "preview": "thumbnails/city_night_thumb.webp",

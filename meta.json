@@ -29,12 +29,12 @@
       {
         "name": "Garage",
         "value": "garage",
-        "preview": "previews/environments/garage.webp"
+        "preview": "previews/environments/garage.png"
       },
       {
         "name": "City",
         "value": "city",
-        "preview": "previews/environments/city.webp"
+        "preview": "previews/environments/city.png"
       }
       // ... other environments
     ]
