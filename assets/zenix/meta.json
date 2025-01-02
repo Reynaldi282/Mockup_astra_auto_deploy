@@ -70,7 +70,8 @@
                 "name": "Default",
                 "value": "default",
                 "preview": "thumbnails/default_thumb.webp",
-                "color": "#f2f2f2"
+                "color": "#f2f2f2",
+                "exposure": 1.0
             },
             {
                 "name": "City Night",
@@ -79,7 +80,8 @@
                 "color": "#191970",
                 "exr": "city_night_1k.exr",
                 "cubemap": "city_night/",
-                "planar": "city_night_planar.glb"
+                "planar": "city_night_planar.glb",
+                "exposure": 0.5
             }
         ],
         "target": "environment",
