@@ -70,8 +70,9 @@
                 "name": "Default",
                 "value": "default",
                 "preview": "thumbnails/default_thumb.webp",
+                "exr": "limbo1.exr",
                 "color": "#f2f2f2",
-                "exposure": 1.0
+                "exposure": 0.55
             },
             {
                 "name": "City Night",
