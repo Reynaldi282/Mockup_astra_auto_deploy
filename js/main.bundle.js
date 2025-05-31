@@ -103,7 +103,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   ACTIVE_PATH: () => (/* binding */ ACTIVE_PATH),\n/* harmony export */   CUBEMAP_PATH: () => (/* binding */ CUBEMAP_PATH),\n/* harmony export */   EXR_PATH: () => (/* binding */ EXR_PATH),\n/* harmony export */   STAGE_PATH: () => (/* binding */ STAGE_PATH),\n/* harmony export */   VEHICLES: () => (/* binding */ VEHICLES)\n/* harmony export */ });\n//Model Paths\nconst STAGE_PATH = 'assets/stage/';\nconst ACTIVE_PATH = 'assets/';\nconst EXR_PATH = 'assets/exr/';\n// Cubemap textures path\nconst CUBEMAP_PATH = 'assets/cubemap/';\n\nconst VEHICLES = [\n    {\n        id: 'zenix',\n        name: 'All New Kijang Innova Zenix HEV',\n        modelPath: '/assets/zenix/model.glb',\n        metaPath: '/assets/zenix/meta.json',\n        type: 'car'\n    },\n    {\n        id: 'ayla',\n        name: 'Daihatsu Ayla',\n        modelPath: '/assets/ayla/model.glb',\n        metaPath: '/assets/ayla/meta.json',\n        type: 'car'\n    },\n    {\n        id: 'rz450e',\n        name: 'Lexus RZ450e Luxury',\n        modelPath: '/assets/rz450e/model.glb',\n        metaPath: '/assets/rz450e/meta.json',\n        type: 'car'\n    },\n    {\n        id: 'em1',\n        name: 'Honda EM1',\n        modelPath: '/assets/em1/model.glb',\n        metaPath: '/assets/em1/meta.json',\n        type: 'motorcycle'\n    }\n];\n\n//# sourceURL=webpack:///./app/config.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   ACTIVE_PATH: () => (/* binding */ ACTIVE_PATH),\n/* harmony export */   CUBEMAP_PATH: () => (/* binding */ CUBEMAP_PATH),\n/* harmony export */   EXR_PATH: () => (/* binding */ EXR_PATH),\n/* harmony export */   STAGE_PATH: () => (/* binding */ STAGE_PATH),\n/* harmony export */   VEHICLES: () => (/* binding */ VEHICLES)\n/* harmony export */ });\n//Model Paths\nconst STAGE_PATH = 'assets/stage/';\nconst ACTIVE_PATH = 'assets/';\nconst EXR_PATH = 'assets/exr/';\n// Cubemap textures path\nconst CUBEMAP_PATH = 'assets/cubemap/';\n\nconst VEHICLES = [\n    {\n        id: 'zenix',\n        name: 'All New Kijang Innova Zenix HEV',\n        modelPath: 'assets/zenix/model.glb',\n        metaPath: 'assets/zenix/meta.json',\n        type: 'car'\n    },\n    {\n        id: 'ayla',\n        name: 'Daihatsu Ayla',\n        modelPath: 'assets/ayla/model.glb',\n        metaPath: 'assets/ayla/meta.json',\n        type: 'car'\n    },\n    {\n        id: 'rz450e',\n        name: 'Lexus RZ450e Luxury',\n        modelPath: 'assets/rz450e/model.glb',\n        metaPath: 'assets/rz450e/meta.json',\n        type: 'car'\n    },\n    {\n        id: 'em1',\n        name: 'Honda EM1',\n        modelPath: 'assets/em1/model.glb',\n        metaPath: 'assets/em1/meta.json',\n        type: 'motorcycle'\n    }\n];\n\n//# sourceURL=webpack:///./app/config.js?");
 
 /***/ }),
 
@@ -341,7 +341,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "js/" + chunkId + "." + {"vendors-node_modules_html2canvas_dist_html2canvas_js":"27955f02088753d5707d","vendors-node_modules_dompurify_dist_purify_es_mjs":"8c16b727848a576daa07","vendors-node_modules_canvg_lib_index_es_js":"81042f24373745ef93ca"}[chunkId] + ".js";
+/******/ 			return "js/" + chunkId + ".bundle.js";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -421,25 +421,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 	
 /******/ 	/* webpack/runtime/publicPath */
 /******/ 	(() => {
-/******/ 		var scriptUrl;
-/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
-/******/ 		var document = __webpack_require__.g.document;
-/******/ 		if (!scriptUrl && document) {
-/******/ 			if (document.currentScript && document.currentScript.tagName.toUpperCase() === 'SCRIPT')
-/******/ 				scriptUrl = document.currentScript.src;
-/******/ 			if (!scriptUrl) {
-/******/ 				var scripts = document.getElementsByTagName("script");
-/******/ 				if(scripts.length) {
-/******/ 					var i = scripts.length - 1;
-/******/ 					while (i > -1 && (!scriptUrl || !/^http(s?):/.test(scriptUrl))) scriptUrl = scripts[i--].src;
-/******/ 				}
-/******/ 			}
-/******/ 		}
-/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
-/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
-/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
-/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
-/******/ 		__webpack_require__.p = scriptUrl + "../";
+/******/ 		__webpack_require__.p = "/";
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/jsonp chunk loading */
