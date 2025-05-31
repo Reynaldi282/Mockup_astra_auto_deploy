@@ -1,0 +1,134 @@
+{
+    "body_colors": {
+        "colors": [
+            {
+                "name": "Sonic Quartz",
+                "value": "#F7F9F5"
+            },
+            {
+                "name": "Sonic Chrome",
+                "value": "#D6D6DE"
+            },
+            {
+                "name": "Sonic Iridium",
+                "value": "#92A8B1"
+            },
+            {
+                "name": "Graphite Black",
+                "value": "#575C62"
+            },
+            {
+                "name": "Solid Black / Solid Copper",
+                "value": "#1D1D1D"
+            },
+            {
+                "name": "Solid Black / Aether ME",
+                "value": "#BA7B70"
+            },
+            {
+                "name": "Solid Black / Sonic Chrome",
+                "value": "linear-gradient(#92A8B1 50%, #000000 50%)"
+            },
+            {
+                "name": "Sonic Copper",
+                "value": "linear-gradient(#575C62 50%, #000000 50%)"
+            },
+            {
+                "name": "Aether Metallic",
+                "value": "linear-gradient(#BA7B70 50%, #000000 50%)"
+            }
+        ],
+        "targets": ["adskMatbody_utama", "body_depan_ok"],
+        "default": 0
+    },
+    "wheel_designs": {
+        "colors": [
+            {
+                "name": "Type A",
+                "value": "#C2C2C2",
+                "thumb": "rz450e/Render_Tyre_0A"
+            },
+            {
+                "name": "Type B",
+                "value": "#4B4B4E",
+                "thumb": "rz450e/Render_Tyre_0B"
+            },            
+            {
+                "name": "Type C",
+                "value": "#B4A389",
+                "thumb": "rz450e/Render_Tyre_0C"
+            }
+        ],
+        "designs": [
+            {
+                "name": "Default",
+                "value": "velg_utama",
+                "thumb": "rz450e/default"
+            },
+            {
+                "name": "Type A",
+                "value": "velg_variasi_1",
+                "thumb": "rz450e/Render_Tyre_0A"
+            },
+            {
+                "name": "Type B",
+                "value": "velg_variasi_2",
+                "thumb": "rz450e/Render_Tyre_0B"
+            },
+            {
+                "name": "Type C",
+                "value": "velg_variasi_3",
+                "thumb": "rz450e/Render_Tyre_0C"
+            }
+        ],        
+        "target": "Attitude_Black_pbr_shader59",
+        "default": 0
+    },
+    "ambience": {
+        "colors": [
+            {
+                "name": "Default",
+                "value": "default",
+                "preview": "zenix/thumbnails/default_thumb.webp",
+                "exr": "limbo1.exr",
+                "color": "#f2f2f2",
+                "exposure": 0.55
+            },
+            {
+                "name": "City Night",
+                "value": "city_night",
+                "preview": "zenix/thumbnails/city_night_thumb.webp",
+                "color": "#191970",
+                "exr": "city_night_1k.exr",
+                "cubemap": "city_night/",
+                "planar": "city_night_planar.glb",
+                "exposure": 0.5
+            }
+        ],
+        "target": "environment",
+        "default": 0
+    },
+    "interior": {        
+        "colors": [],
+        "target": "",
+        "default": 0
+    },
+    "accessories": {
+        "designs": [
+            {
+                "name": "Default",
+                "value": "default",
+                "thumb": "",
+                "background": "#FFFFFF"
+            },
+            {
+                "name": "Talang Air",
+                "value": "talang_air",
+                "thumb": "rz450e/Render_Talang_Air",
+                "background": "#F5F5F5"
+            }
+        ],
+        "target": "talang_air",
+        "default": 0
+    }
+}

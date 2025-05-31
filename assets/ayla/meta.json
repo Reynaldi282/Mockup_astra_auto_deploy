@@ -1,0 +1,130 @@
+{
+    "body_colors": {
+        "colors": [
+            {
+                "name": "Icy White",
+                "value": "#f6f6f6"
+            },
+            {
+                "name": "Ultra Black Solid",
+                "value": "#0c0c0c"
+            },
+            {
+                "name": "Rock Grey Metallic",
+                "value": "#474747"
+            },
+            {
+                "name": "Glittering Silver",
+                "value": "#acb8c0"
+            },
+            {
+                "name": "Rock Grey Metallic",
+                "value": "#ffff00"
+            },
+            {
+                "name": "Metallic Orange",
+                "value": "#da680f"
+            },
+            {
+                "name": "Ruby Red Metallic",
+                "value": "#e0115f"
+            },
+            {
+                "name": "Compagno Red",
+                "value": "#d92121"
+            }
+        ],
+        "targets": ["adskMatbody_utama"],
+        "default": 0
+    },
+    "wheel_designs": {
+        "colors": [
+            {
+                "name": "Type A",
+                "value": "#C2C2C2",
+                "thumb": "ayla/Render_Tyre_0A"
+            },
+            {
+                "name": "Type B",
+                "value": "#4B4B4E",
+                "thumb": "ayla/Render_Tyre_0B"
+            },            
+            {
+                "name": "Type C",
+                "value": "#B4A389",
+                "thumb": "ayla/Render_Tyre_0C"
+            }
+        ],
+        "designs": [
+            {
+                "name": "Default",
+                "value": "velg_utama",
+                "thumb": "ayla/default"
+            },
+            {
+                "name": "Type A",
+                "value": "velg_variasi_2",
+                "thumb": "ayla/Render_Tyre_0A"
+            },
+            {
+                "name": "Type B",
+                "value": "velg_variasi_3",
+                "thumb": "ayla/Render_Tyre_0B"
+            },
+            {
+                "name": "Type C",
+                "value": "velg_variasi_1",
+                "thumb": "ayla/Render_Tyre_0C"
+            }
+        ],        
+        "target": "Attitude_Black_pbr_shader59",
+        "default": 0
+    },
+    "ambience": {
+        "colors": [
+            {
+                "name": "Default",
+                "value": "default",
+                "preview": "zenix/thumbnails/default_thumb.webp",
+                "exr": "limbo1.exr",
+                "color": "#f2f2f2",
+                "exposure": 0.55
+            },
+            {
+                "name": "City Night",
+                "value": "city_night",
+                "preview": "zenix/thumbnails/city_night_thumb.webp",
+                "color": "#191970",
+                "exr": "city_night_1k.exr",
+                "cubemap": "city_night/",
+                "planar": "city_night_planar.glb",
+                "exposure": 0.5
+            }
+        ],
+        "target": "environment",
+        "default": 0
+    },
+    "interior": {        
+        "colors": [],
+        "target": "",
+        "default": 0
+    },
+    "accessories": {
+        "designs": [
+            {
+                "name": "Default",
+                "value": "default",
+                "thumb": "",
+                "background": "#FFFFFF"
+            },
+            {
+                "name": "Talang Air",
+                "value": "talang_air",
+                "thumb": "ayla/Render_Talang_Air",
+                "background": "#F5F5F5"
+            }
+        ],
+        "target": "talang_air",
+        "default": 0
+    }
+}

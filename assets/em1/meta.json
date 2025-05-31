@@ -1,0 +1,74 @@
+{
+    "body_colors": {
+        "colors": [
+            {
+                "name": "Iconic White",
+                "value": "#FFFFFF"
+            },
+            {
+                "name": "Iconic Matte Black",
+                "value": "#000000"
+            },
+            {
+                "name": "Iconic Orange",
+                "value": "#FFA500"
+            },
+            {
+                "name": "Iconic Mint",
+                "value": "#98FF98"
+            },
+            {
+                "name": "Iconic Red",
+                "value": "#FF0000"
+            }
+        ],
+        "targets": ["adskMatbody_utama"],
+        "default": 0
+    },
+    "ambience": {
+        "colors": [
+            {
+                "name": "Default",
+                "value": "default",
+                "preview": "zenix/thumbnails/default_thumb.webp",
+                "exr": "limbo1.exr",
+                "color": "#f2f2f2",
+                "exposure": 0.55
+            },
+            {
+                "name": "City Night",
+                "value": "city_night",
+                "preview": "zenix/thumbnails/city_night_thumb.webp",
+                "color": "#191970",
+                "exr": "city_night_1k.exr",
+                "cubemap": "city_night/",
+                "planar": "city_night_planar.glb",
+                "exposure": 0.5
+            }
+        ],
+        "target": "environment",
+        "default": 0
+    },
+    "interior": {        
+        "colors": [],
+        "target": "",
+        "default": 0
+    },
+    "accessories": {
+        "designs": [
+            {
+                "name": "Default",
+                "value": "default",
+                "thumb": "",
+                "background": "#FFFFFF"
+            },
+            {
+                "name": "Rear Carrier",
+                "value": "hand_step",
+                "thumb": "em1/Render_Rear_Carrier"
+            }
+        ],
+        "target": "talang_air",
+        "default": 0
+    }
+}
